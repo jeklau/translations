@@ -3,12 +3,13 @@ msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 14:21+0000\n"
-"Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
-"Language: zh_Hant\n"
+"PO-Revision-Date: 2017-06-10 17:52+0000\n"
+"Last-Translator: Yury V. Zaytsev <yury@shurup.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
 
 #: bets/forms.py:18
 msgid "Season"
@@ -18,12 +19,12 @@ msgstr ""
 #: matches/templates/tournaments/tournament_list_inline.html:11
 #: teams/forms.py:98 teams/templates/players/player_list.html:75
 msgid "Region"
-msgstr "地區"
+msgstr ""
 
 #: bets/forms.py:25 heroes/forms.py:17 matches/forms.py:15 meta/forms.py:19
 #: teams/forms.py:99
 msgid "All Regions"
-msgstr "所有地區"
+msgstr ""
 
 #: bets/forms.py:27
 msgid "Week"
@@ -58,7 +59,7 @@ msgstr ""
 #: teams/templates/teams/team_list.html:53
 msgctxt "Link to the main page"
 msgid "Home"
-msgstr "首頁"
+msgstr ""
 
 #: bets/templates/bets/bets_base.html:45
 msgid "Predict results"
@@ -106,7 +107,7 @@ msgstr ""
 #: teams/templates/teams/team_base.html:57
 #: teams/templates/teams/team_maps.html:14 templates/base.html:224
 msgid "Matches"
-msgstr "比賽"
+msgstr ""
 
 #: bets/templates/bets/bets_base.html:68
 #: bets/templates/bets/leaderboard.html:5
@@ -122,7 +123,7 @@ msgstr ""
 #: teams/templates/teams/team_base.html:97
 msgctxt "Button label"
 msgid "Just Do It!"
-msgstr "開始搜尋"
+msgstr ""
 
 #: bets/templates/bets/leaderboard.html:60
 msgid "Position"
@@ -132,7 +133,7 @@ msgstr ""
 #: teams/templates/players/player_list.html:77
 #: teams/templates/teams/team_overview.html:142
 msgid "Nickname"
-msgstr "選手"
+msgstr ""
 
 #: bets/templates/bets/leaderboard.html:62
 msgctxt "Bets count"
@@ -177,7 +178,7 @@ msgstr ""
 #: teams/templates/players/players_transfers.html:64
 #: teams/templates/teams/team_overview.html:175
 msgid "Date"
-msgstr "日期"
+msgstr ""
 
 #: bets/templates/bets/matches.html:58
 msgid "Stage"
@@ -214,7 +215,7 @@ msgstr ""
 #: changelog/templates/changelog/changelog_list.html:19
 msgctxt "News title"
 msgid "Title"
-msgstr "標題"
+msgstr ""
 
 #: comments/templates/comments/comment_edit_form.html:13
 msgid "Save changes"
@@ -287,7 +288,7 @@ msgstr ""
 #: comments/templates/profiles/base.html:45
 #: matches/templates/matches/match_detail.html:246
 msgid "Comments"
-msgstr "評論"
+msgstr ""
 
 #: comments/templates/profiles/base.html:49 templates/base.html:242
 msgid "Notifications"
@@ -320,12 +321,12 @@ msgstr ""
 #: core/templates/core/pagination.html:3
 msgctxt "Page navigation"
 msgid "Previous"
-msgstr "上一頁"
+msgstr ""
 
 #: core/templates/core/pagination.html:4
 msgctxt "Page navigation"
 msgid "Next"
-msgstr "下一頁"
+msgstr ""
 
 #: custom/templates/custom/team_heroes.html:5
 #: heroes/templates/heroes/hero_detail.html:8
@@ -342,7 +343,7 @@ msgstr "下一頁"
 #: teams/templates/players/player_heroes.html:5
 #: teams/templates/teams/team_base.html:56 templates/base.html:226
 msgid "Heroes"
-msgstr "英雄"
+msgstr ""
 
 #: custom/templates/custom/team_heroes.html:65
 #: meta/templates/meta/heroes.html:12
@@ -355,40 +356,36 @@ msgstr ""
 #: meta/templates/meta/heroes.html:32
 msgctxt "Hero tier"
 msgid "Tier"
-msgstr "分級"
+msgstr ""
 
 #: heroes/forms.py:14 meta/forms.py:15
 msgid "Regions"
-msgstr "地區"
+msgstr ""
 
 #: heroes/forms.py:19 meta/forms.py:21 teams/forms.py:60 teams/forms.py:123
 msgid "Patches"
-msgstr "更新檔"
+msgstr ""
 
 #: heroes/forms.py:22 meta/forms.py:25 teams/forms.py:30 teams/forms.py:63
 #: teams/forms.py:126
 msgid "All patches"
-msgstr "所有更新檔"
+msgstr ""
 
 #: heroes/forms.py:25 matches/templates/tournaments/tournament_detail.html:8
 #: matches/templates/tournaments/tournament_detail.html:20
 #: matches/templates/tournaments/tournament_list.html:8
 #: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:37
 #: teams/forms.py:76 teams/forms.py:144 templates/base.html:223
-#, fuzzy
 msgid "Tournaments"
-msgstr "賽事"
+msgstr ""
 
 #: heroes/forms.py:30 meta/forms.py:42 teams/forms.py:81 teams/forms.py:149
 msgid "All tournaments"
-msgstr "所有比賽"
+msgstr ""
 
 #: heroes/templates/heroes/hero_builds.html:5
-#, fuzzy
-#| msgctxt "Hero builds"
-#| msgid "Builds"
 msgid "builds"
-msgstr "天賦點法"
+msgstr ""
 
 #: heroes/templates/heroes/hero_builds.html:28
 #: heroes/templates/heroes/hero_counters.html:23
@@ -396,24 +393,21 @@ msgstr "天賦點法"
 #: teams/templates/teams/team_maps.html:15
 #, python-format
 msgid "Win %%"
-msgstr "勝率"
+msgstr ""
 
 #: heroes/templates/heroes/hero_builds.html:58
 #: heroes/templates/heroes/hero_counters.html:47
 #: pages/templates/calendar_base.html:86
 msgid "Show matches"
-msgstr "顯示比賽"
+msgstr ""
 
 #: heroes/templates/heroes/hero_builds.html:94
 msgid "No replays found in the selected period."
-msgstr "沒有找到所選期间內的錄影。"
+msgstr ""
 
 #: heroes/templates/heroes/hero_counters.html:5
-#, fuzzy
-#| msgctxt "Second pick stats"
-#| msgid "Second pick"
 msgid "counter picks"
-msgstr "后選方"
+msgstr ""
 
 #: heroes/templates/heroes/hero_counters.html:9
 msgid "Heroes that counter teams with"
@@ -428,135 +422,130 @@ msgstr ""
 #: teams/forms.py:48 teams/forms.py:68 teams/forms.py:110
 #: teams/templates/players/player_heroes.html:38
 msgid "Hero"
-msgstr "英雄"
+msgstr ""
 
 #: heroes/templates/heroes/hero_counters.html:24
 #: matches/templates/matches/match_stats.html:301
 msgid "Kills"
-msgstr "擊殺"
+msgstr ""
 
 #: heroes/templates/heroes/hero_counters.html:25
-#, fuzzy
-#| msgid "All patches"
 msgid "Kills per match"
-msgstr "所有更新檔"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:5
 msgid "statistics"
-msgstr "統計數據"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:66
 #, python-format
 msgid "First wave pick (%(pick1_count)s matches)"
-msgstr "第一階段選擇場次 （%(pick1_count)s場）"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:67
 #, python-format
 msgid "Second wave pick (%(pick2_count)s matches)"
-msgstr "第二階段選擇場次（%(pick2_count)s場）"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:68
 #, python-format
 msgid "First wave ban (%(ban1_count)s matches)"
-msgstr "第一階段禁用場次（%(ban1_count)s場）"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:69
 #, python-format
 msgid "Second wave ban (%(ban2_count)s matches)"
-msgstr "第二階段禁用場次（%(ban2_count)s場）"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:70
 #, python-format
 msgid "Not banned or picked (%(popularity_blank_count)s matches)"
-msgstr "未出鏡的場次（%(popularity_blank_count)s場）"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:239
 #: heroes/templates/heroes/stats_table_inline.html:17
 #: meta/templates/meta/include/heroes_table.html:17
 msgid "Popularity"
-msgstr "出鏡率"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:240
 #, python-format
 msgid "%(match_count)s of %(total_matches)s matches"
-msgstr "總共%(total_matches)s場中的%(match_count)s場"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:252
 msgid "Wins"
-msgstr "勝場"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:253
-#, fuzzy, python-format
-#| msgid "%(win_count)s of %(pick_count)s matches"
+#, python-format
 msgid "%(win_count)s of %(pick_count)s matches"
-msgstr "總共被選的%(pick_count)s場中的%(win_count)s場"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:258
 msgctxt "Hero overview"
 msgid "Overview"
-msgstr "概況"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:259
 msgctxt "Hero builds"
 msgid "Builds"
-msgstr "天賦點法"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:260
-#, fuzzy
-#| msgid "Count"
 msgctxt "Hero counter picks"
 msgid "Counters"
-msgstr "局數"
+msgstr ""
 
 #: heroes/templates/heroes/hero_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Heroes"
-msgstr "英雄"
+msgstr ""
 
 #: heroes/templates/heroes/hero_list.html:58
 #: meta/templates/meta/drafts.html:237
 msgctxt "Hero role"
 msgid "Warrior"
-msgstr "戰士"
+msgstr ""
 
 #: heroes/templates/heroes/hero_list.html:59
 #: meta/templates/meta/drafts.html:239
 msgctxt "Hero role"
 msgid "Support"
-msgstr "輔助"
+msgstr ""
 
 #: heroes/templates/heroes/hero_list.html:60
 #: meta/templates/meta/drafts.html:241
 msgctxt "Hero role"
 msgid "Assassin"
-msgstr "刺客"
+msgstr ""
 
 #: heroes/templates/heroes/hero_list.html:61
 #: meta/templates/meta/drafts.html:243
 msgctxt "Hero role"
 msgid "Specialist"
-msgstr "專家"
+msgstr ""
 
 #: heroes/templates/heroes/hero_list.html:66
 msgid "Start typing to search"
-msgstr "鍵入搜尋關鍵字"
+msgstr ""
 
 #: heroes/templates/heroes/hero_matches_inline.html:9
 #: teams/templates/players/players_transfers.html:89
 msgid "Load more"
-msgstr "加載更多"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:20
 #: heroes/templates/heroes/stats_table_inline.html:15
 #: meta/templates/meta/include/heroes_table.html:15
 msgid "Ban Rate"
-msgstr "禁用率"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:35
 #: heroes/templates/heroes/stats_table_inline.html:16
 #: meta/templates/meta/include/heroes_table.html:16
 msgid "Pick Rate"
-msgstr "選擇率"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:50
 #: heroes/templates/heroes/hero_overview.html:114
@@ -567,39 +556,38 @@ msgstr "選擇率"
 #: meta/templates/meta/include/heroes_table.html:14
 #: teams/templates/players/player_heroes.html:40
 msgid "Win Rate"
-msgstr "勝率"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:70
 msgid "Popularity per Patch"
-msgstr "各個更新檔的出鏡率比较"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:135
 msgid "Win Rate vs Game Duration"
-msgstr "勝率 vs 遊戲時间"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:186
 msgid ""
 "Popularity per Patch chart is based on the analysis of the latest patches "
 "for the selected region(s)."
 msgstr ""
-"各個更新檔的出鏡率趨勢圖表是根據對所選地區最新更新檔的比賽結果分析得到的。"
 
 #: heroes/templates/heroes/hero_overview.html:191
 msgctxt "Hero"
 msgid "Most Popular On Maps"
-msgstr "各個地圖上的出鏡頻率"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:26
 #: meta/templates/meta/maps.html:20 teams/forms.py:24 teams/forms.py:51
 #: teams/forms.py:65 teams/forms.py:128
 #: teams/templates/teams/team_maps.html:13
 msgid "Map"
-msgstr "地圖"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:231
 msgctxt "Hero"
 msgid "Most Played By Teams"
-msgstr "各個戰隊的使用頻率"
+msgstr ""
 
 #: heroes/templates/heroes/hero_overview.html:237
 #: matches/templates/tournaments/tournament_overview.html:7
@@ -610,30 +598,30 @@ msgstr "各個戰隊的使用頻率"
 #: teams/templates/players/player_list.html:76
 #: teams/templates/players/player_overview.html:119
 msgid "Team"
-msgstr "戰隊"
+msgstr ""
 
 #: heroes/templates/heroes/stats_table_inline.html:11
 #: meta/templates/meta/include/heroes_table.html:11
 msgctxt "Wins count"
 msgid "Wins"
-msgstr "勝場"
+msgstr ""
 
 #: heroes/templates/heroes/stats_table_inline.html:12
 #: meta/templates/meta/include/heroes_table.html:12
 msgctxt "Losses count"
 msgid "Losses"
-msgstr "負場"
+msgstr ""
 
 #: heroes/templates/heroes/stats_table_inline.html:13
 #: meta/templates/meta/include/heroes_table.html:13
 msgctxt "Bans count"
 msgid "Bans"
-msgstr "禁用場次"
+msgstr ""
 
 #: heroes/views.py:183 heroes/views.py:184
 msgctxt "minutes"
 msgid "mins"
-msgstr "分鐘"
+msgstr ""
 
 #: maps/templates/maps/map_detail.html:8
 #: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
@@ -643,7 +631,7 @@ msgstr "分鐘"
 #: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
 #: teams/templates/teams/team_maps.html:5 templates/base.html:225
 msgid "Maps"
-msgstr "地圖"
+msgstr ""
 
 #: maps/templates/maps/map_detail.html:25
 #: matches/templates/matches/matches_inline.html:24
@@ -651,7 +639,7 @@ msgstr "地圖"
 #: meta/templates/meta/base.html:29 meta/templates/meta/drafts.html:5
 #: meta/templates/meta/drafts.html:6 teams/templates/teams/team_base.html:55
 msgid "Drafts"
-msgstr "選角"
+msgstr ""
 
 #: maps/templates/maps/map_detail.html:27
 #: matches/templates/tournaments/tournament_overview.html:150
@@ -671,7 +659,7 @@ msgstr "選角"
 #: teams/templates/players/players_transfers.html:49 templates/base.html:96
 #: templates/base.html:222
 msgid "Players"
-msgstr "選手"
+msgstr ""
 
 #: maps/templates/maps/map_detail.html:28
 #: matches/templates/tournaments/tournament_overview.html:151
@@ -683,108 +671,104 @@ msgstr "選手"
 #: teams/templates/teams/team_list.html:54 templates/base.html:81
 #: templates/base.html:221
 msgid "Teams"
-msgstr "戰隊"
+msgstr ""
 
 #: maps/templates/maps/map_detail.html:34 meta/templates/meta/base.html:21
 msgid "Warning!"
-msgstr "警告！"
+msgstr ""
 
 #: maps/templates/maps/map_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Maps"
-msgstr "地圖"
+msgstr ""
 
 #: masterleague/lc_strings.py:7
 msgid "North America"
-msgstr "北美"
+msgstr ""
 
 #: masterleague/lc_strings.py:8
 msgid "Europe"
-msgstr "歐洲"
+msgstr ""
 
 #: masterleague/lc_strings.py:9 masterleague/lc_strings.py:22
 msgid "Final"
-msgstr "決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:10
 msgid "South Korea"
-msgstr "韓國"
+msgstr ""
 
 #: masterleague/lc_strings.py:11
 msgid "China"
-msgstr "中國"
+msgstr ""
 
 #: masterleague/lc_strings.py:12
 msgid "Taiwan"
-msgstr "台灣"
+msgstr ""
 
 #: masterleague/lc_strings.py:13
 msgid "Southeast Asia"
-msgstr "東南亞"
+msgstr ""
 
 #: masterleague/lc_strings.py:14
 msgid "Latin America"
-msgstr "拉丁美洲"
+msgstr ""
 
 #: masterleague/lc_strings.py:15
 msgid "Australia & New Zealand"
-msgstr "澳洲和紐西蘭"
+msgstr ""
 
 #: masterleague/lc_strings.py:19
 msgid "Grand Final"
-msgstr "總決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:20
 msgid "Winners Final"
-msgstr "勝者組決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:21
 msgid "Losers Final"
-msgstr "敗者組決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:23
 msgid "1/2 Final"
-msgstr "半決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:24
 msgid "1/2 Final LB"
-msgstr "敗者組半決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:25
 msgid "1/2 Final WB"
-msgstr "勝者組半決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:26
 msgid "1/4 Final"
-msgstr "1/4決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:27
 msgid "1/4 Final LB"
-msgstr "敗者組1/4決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:28
 msgid "1/4 Final WB"
-msgstr "勝者組1/4決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:29
 msgid "1/8 Final"
-msgstr "1/8決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:30
 msgid "1/8 Final LB"
-msgstr "敗者組1/8決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:31
-#, fuzzy
-#| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
-msgstr "敗者組1/8決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:32
-#, fuzzy
-#| msgid "1/2 Final"
 msgid "1/16 Final"
-msgstr "半決賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
@@ -792,59 +776,59 @@ msgstr ""
 
 #: masterleague/lc_strings.py:34
 msgid "Tiebreak"
-msgstr "加賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:35
 msgid "Showmatch"
-msgstr "表演賽"
+msgstr ""
 
 #: masterleague/lc_strings.py:39
 msgid "Battlefield of Eternity"
-msgstr "永恆戰場"
+msgstr ""
 
 #: masterleague/lc_strings.py:40
 msgid "Blackheart’s Bay"
-msgstr "黑心灣"
+msgstr ""
 
 #: masterleague/lc_strings.py:41
 msgid "Braxis Holdout"
-msgstr "布萊希斯實驗所"
+msgstr ""
 
 #: masterleague/lc_strings.py:42
 msgid "Cursed Hollow"
-msgstr "詛咒谷地"
+msgstr ""
 
 #: masterleague/lc_strings.py:43
 msgid "Dragon Shire"
-msgstr "巨龍郡"
+msgstr ""
 
 #: masterleague/lc_strings.py:44
 msgid "Garden of Terror"
-msgstr "恐魔花園"
+msgstr ""
 
 #: masterleague/lc_strings.py:45
 msgid "Haunted Mines"
-msgstr "亡骸礦坑"
+msgstr ""
 
 #: masterleague/lc_strings.py:46
 msgid "Infernal Shrines"
-msgstr "煉獄聖壇"
+msgstr ""
 
 #: masterleague/lc_strings.py:47
 msgid "Sky Temple"
-msgstr "天空神殿"
+msgstr ""
 
 #: masterleague/lc_strings.py:48
 msgid "Tomb of the Spider Queen"
-msgstr "蛛后之墓"
+msgstr ""
 
 #: masterleague/lc_strings.py:49
 msgid "Towers of Doom"
-msgstr "厄運之塔"
+msgstr ""
 
 #: masterleague/lc_strings.py:50
 msgid "Warhead Junction"
-msgstr "核武戰地"
+msgstr ""
 
 #: masterleague/lc_strings.py:51
 msgid "Hanamura"
@@ -853,17 +837,15 @@ msgstr ""
 #: masterleague/lc_strings.py:55
 #, python-format
 msgid "Altar captured. Shots fired: %(shots_fired)s."
-msgstr "Altar captured. Shots fired: %(shots_fired)s."
+msgstr ""
 
 #: masterleague/lc_strings.py:56
 msgid "Dragon Knight activated"
 msgstr ""
 
 #: masterleague/lc_strings.py:57
-#, fuzzy
-#| msgid "Garden of Terror"
 msgid "Garden Terror activated"
-msgstr "恐魔花園"
+msgstr ""
 
 #: masterleague/lc_strings.py:58
 msgid "Ghost ship captured"
@@ -874,10 +856,8 @@ msgid "Immortal defeated"
 msgstr ""
 
 #: masterleague/lc_strings.py:60
-#, fuzzy
-#| msgid "Infernal Shrines"
 msgid "Infernal shrine captured"
-msgstr "煉獄聖壇"
+msgstr ""
 
 #: masterleague/lc_strings.py:61
 msgid "Boss camp"
@@ -894,7 +874,7 @@ msgstr ""
 #: masterleague/lc_strings.py:64
 #, python-format
 msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
-msgstr "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
+msgstr ""
 
 #: masterleague/lc_strings.py:65
 msgid "Webweavers spawned"
@@ -903,63 +883,63 @@ msgstr ""
 #: masterleague/lc_strings.py:66
 #, python-format
 msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
-msgstr "Zerg rush. Opposing score: %(opposing_score)s%%."
+msgstr ""
 
 #: masterleague/lc_strings.py:70
 msgid "Samuro Patch"
-msgstr "薩姆羅更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:71
 msgid "Alarak Patch"
-msgstr "亞拉瑞克更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:72
 msgid "Auriel Patch"
-msgstr "奧莉爾更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:73
 msgid "Gul'dan Patch"
-msgstr "古爾丹更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:74
 msgid "Medivh Patch"
-msgstr "麥迪文更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:75
 msgid "Chromie Patch"
-msgstr "克羅米更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:76
 msgid "Tracer Patch"
-msgstr "閃光更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:77
 msgid "Dehaka Patch"
-msgstr "德哈卡更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:78
 msgid "Xul Patch"
-msgstr "蘇爾更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:79
 msgid "Li-Ming Patch"
-msgstr "李敏更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:80
 msgid "Greymane Patch"
-msgstr "葛雷邁恩更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:81
 msgid "Lunara Patch"
-msgstr "露娜拉更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:82
 msgid "Zarya Patch"
-msgstr "扎莉雅更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:83
 msgid "Varian Patch"
-msgstr "瓦里安更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:84
 msgid "Ragnaros Patch"
@@ -986,150 +966,140 @@ msgid "Cassia Patch"
 msgstr ""
 
 #: masterleague/lc_strings.py:90
-#, fuzzy
-#| msgid "Greymane Patch"
 msgid "Genji Patch"
-msgstr "葛雷邁恩更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:91
-#, fuzzy
-#| msgid "Dehaka Patch"
 msgid "D.Va Patch"
-msgstr "德哈卡更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:92
-#, fuzzy
-#| msgid "Zarya Patch"
 msgid "Malthael Patch"
-msgstr "扎莉雅更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:93
-#, fuzzy
-#| msgid "Samuro Patch"
 msgid "Stukov Patch"
-msgstr "薩姆羅更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:94
-#, fuzzy
-#| msgid "Samuro Patch"
 msgid "Garrosh Patch"
-msgstr "薩姆羅更新檔"
+msgstr ""
 
 #: masterleague/lc_strings.py:98
 msgid "Abathur"
-msgstr "阿巴瑟"
+msgstr ""
 
 #: masterleague/lc_strings.py:99
 msgid "Alarak"
-msgstr "亞拉瑞克"
+msgstr ""
 
 #: masterleague/lc_strings.py:100
 msgid "Anub'arak"
-msgstr "阿努巴拉克"
+msgstr ""
 
 #: masterleague/lc_strings.py:101
 msgid "Artanis"
-msgstr "亞坦尼斯"
+msgstr ""
 
 #: masterleague/lc_strings.py:102
 msgid "Arthas"
-msgstr "阿薩斯"
+msgstr ""
 
 #: masterleague/lc_strings.py:103
 msgid "Auriel"
-msgstr "奧莉爾"
+msgstr ""
 
 #: masterleague/lc_strings.py:104
 msgid "Azmodan"
-msgstr "阿茲莫丹"
+msgstr ""
 
 #: masterleague/lc_strings.py:105
 msgid "Brightwing"
-msgstr "亮翼"
+msgstr ""
 
 #: masterleague/lc_strings.py:106
 msgid "Chen"
-msgstr "老陳"
+msgstr ""
 
 #: masterleague/lc_strings.py:107
 msgid "Cho"
-msgstr "丘"
+msgstr ""
 
 #: masterleague/lc_strings.py:108
 msgid "Chromie"
-msgstr "克羅米"
+msgstr ""
 
 #: masterleague/lc_strings.py:109
 msgid "Dehaka"
-msgstr "德哈卡"
+msgstr ""
 
 #: masterleague/lc_strings.py:110
 msgid "Diablo"
-msgstr "迪亞布羅"
+msgstr ""
 
 #: masterleague/lc_strings.py:111
 msgid "E.T.C."
-msgstr "精英牛頭大佬"
+msgstr ""
 
 #: masterleague/lc_strings.py:112
 msgid "Falstad"
-msgstr "弗斯塔德"
+msgstr ""
 
 #: masterleague/lc_strings.py:113
 msgid "Gall"
-msgstr "加利"
+msgstr ""
 
 #: masterleague/lc_strings.py:114
 msgid "Gazlowe"
-msgstr "加茲魯維"
+msgstr ""
 
 #: masterleague/lc_strings.py:115
 msgid "Greymane"
-msgstr "葛雷邁恩"
+msgstr ""
 
 #: masterleague/lc_strings.py:116
 msgid "Gul'dan"
-msgstr "古爾丹"
+msgstr ""
 
 #: masterleague/lc_strings.py:117
 msgid "Illidan"
-msgstr "伊利丹"
+msgstr ""
 
 #: masterleague/lc_strings.py:118
 msgid "Jaina"
-msgstr "珍娜"
+msgstr ""
 
 #: masterleague/lc_strings.py:119
 msgid "Johanna"
-msgstr "喬安娜"
+msgstr ""
 
 #: masterleague/lc_strings.py:120
 msgid "Kael'thas"
-msgstr "凱爾薩斯"
+msgstr ""
 
 #: masterleague/lc_strings.py:121
 msgid "Kerrigan"
-msgstr "凱莉根"
+msgstr ""
 
 #: masterleague/lc_strings.py:122
 msgid "Kharazim"
-msgstr "克拉辛"
+msgstr ""
 
 #: masterleague/lc_strings.py:123
 msgid "Leoric"
-msgstr "李奧瑞克"
+msgstr ""
 
 #: masterleague/lc_strings.py:124
 msgid "Li Li"
-msgstr "莉莉"
+msgstr ""
 
 #: masterleague/lc_strings.py:125
 msgid "Li-Ming"
-msgstr "李敏"
+msgstr ""
 
 #: masterleague/lc_strings.py:126
 msgid "Lt. Morales"
-msgstr "莫拉萊斯中尉"
+msgstr ""
 
 #: masterleague/lc_strings.py:127
 msgid "Lucio"
@@ -1137,31 +1107,31 @@ msgstr ""
 
 #: masterleague/lc_strings.py:128
 msgid "Lunara"
-msgstr "露娜拉"
+msgstr ""
 
 #: masterleague/lc_strings.py:129
 msgid "Malfurion"
-msgstr "瑪法里恩"
+msgstr ""
 
 #: masterleague/lc_strings.py:130
 msgid "Medivh"
-msgstr "麥迪文"
+msgstr ""
 
 #: masterleague/lc_strings.py:131
 msgid "Muradin"
-msgstr "穆拉丁"
+msgstr ""
 
 #: masterleague/lc_strings.py:132
 msgid "Murky"
-msgstr "莫奇"
+msgstr ""
 
 #: masterleague/lc_strings.py:133
 msgid "Nazeebo"
-msgstr "納奇班"
+msgstr ""
 
 #: masterleague/lc_strings.py:134
 msgid "Nova"
-msgstr "諾娃"
+msgstr ""
 
 #: masterleague/lc_strings.py:135
 msgid "Ragnaros"
@@ -1169,71 +1139,71 @@ msgstr ""
 
 #: masterleague/lc_strings.py:136
 msgid "Raynor"
-msgstr "雷諾"
+msgstr ""
 
 #: masterleague/lc_strings.py:137
 msgid "Rehgar"
-msgstr "雷加"
+msgstr ""
 
 #: masterleague/lc_strings.py:138
 msgid "Rexxar"
-msgstr "雷克薩"
+msgstr ""
 
 #: masterleague/lc_strings.py:139
 msgid "Samuro"
-msgstr "薩姆羅"
+msgstr ""
 
 #: masterleague/lc_strings.py:140
 msgid "Sgt. Hammer"
-msgstr "榔頭中士"
+msgstr ""
 
 #: masterleague/lc_strings.py:141
 msgid "Sonya"
-msgstr "桑雅"
+msgstr ""
 
 #: masterleague/lc_strings.py:142
 msgid "Stitches"
-msgstr "縫合怪"
+msgstr ""
 
 #: masterleague/lc_strings.py:143
 msgid "Sylvanas"
-msgstr "希瓦娜斯"
+msgstr ""
 
 #: masterleague/lc_strings.py:144
 msgid "Tassadar"
-msgstr "塔薩達"
+msgstr ""
 
 #: masterleague/lc_strings.py:145
 msgid "The Butcher"
-msgstr "屠夫"
+msgstr ""
 
 #: masterleague/lc_strings.py:146
 msgid "The Lost Vikings"
-msgstr "失落的維京人"
+msgstr ""
 
 #: masterleague/lc_strings.py:147
 msgid "Thrall"
-msgstr "索爾"
+msgstr ""
 
 #: masterleague/lc_strings.py:148
 msgid "Tracer"
-msgstr "閃光"
+msgstr ""
 
 #: masterleague/lc_strings.py:149
 msgid "Tychus"
-msgstr "泰科斯"
+msgstr ""
 
 #: masterleague/lc_strings.py:150
 msgid "Tyrael"
-msgstr "泰瑞爾"
+msgstr ""
 
 #: masterleague/lc_strings.py:151
 msgid "Tyrande"
-msgstr "泰蘭妲"
+msgstr ""
 
 #: masterleague/lc_strings.py:152
 msgid "Uther"
-msgstr "烏瑟"
+msgstr ""
 
 #: masterleague/lc_strings.py:153
 msgid "Valeera"
@@ -1241,27 +1211,27 @@ msgstr ""
 
 #: masterleague/lc_strings.py:154
 msgid "Valla"
-msgstr "維拉"
+msgstr ""
 
 #: masterleague/lc_strings.py:155
 msgid "Varian"
-msgstr "瓦里安"
+msgstr ""
 
 #: masterleague/lc_strings.py:156
 msgid "Xul"
-msgstr "蘇爾"
+msgstr ""
 
 #: masterleague/lc_strings.py:157
 msgid "Zagara"
-msgstr "扎迦拉"
+msgstr ""
 
 #: masterleague/lc_strings.py:158
 msgid "Zarya"
-msgstr "扎莉雅"
+msgstr ""
 
 #: masterleague/lc_strings.py:159
 msgid "Zeratul"
-msgstr "澤拉圖"
+msgstr ""
 
 #: masterleague/lc_strings.py:160
 msgid "Zul'jin"
@@ -1299,24 +1269,24 @@ msgstr ""
 #: matches/forms.py:36 teams/forms.py:113
 #: teams/templates/players/players_compare.html:35
 msgid "Select and begin typing"
-msgstr "點擊并鍵入"
+msgstr ""
 
 #: matches/forms.py:20 teams/forms.py:20 teams/forms.py:45
 msgid "Patch"
-msgstr "更新檔"
+msgstr ""
 
 #: matches/forms.py:21 teams/forms.py:46
 msgctxt "All patches"
 msgid "All Time"
-msgstr "全時間段"
+msgstr ""
 
 #: matches/forms.py:27 teams/forms.py:25 teams/forms.py:52
 msgid "All Maps"
-msgstr "所有地圖"
+msgstr ""
 
 #: matches/forms.py:33 meta/views.py:231 teams/forms.py:22 teams/forms.py:49
 msgid "All Heroes"
-msgstr "所有英雄"
+msgstr ""
 
 #: matches/templates/admin/tabular.html:121
 #, python-format
@@ -1327,23 +1297,23 @@ msgstr ""
 #: matches/templates/matches/match_stats.html:225
 msgctxt "Match winner"
 msgid "Winner"
-msgstr "勝者"
+msgstr ""
 
 #: matches/templates/matches/match_detail.html:62
 #: matches/templates/matches/match_stats.html:226
 msgctxt "Match loser"
 msgid "Loser"
-msgstr "負者"
+msgstr ""
 
 #: matches/templates/matches/match_detail.html:63
 msgctxt "First pick mark on match page"
 msgid "First pick"
-msgstr "先選方"
+msgstr ""
 
 #: matches/templates/matches/match_detail.html:64
 msgctxt "Banned heroes list on match page"
 msgid "Bans"
-msgstr "禁用名單"
+msgstr ""
 
 #: matches/templates/matches/match_detail.html:78
 msgid "Remove from favorites"
@@ -1359,51 +1329,51 @@ msgstr ""
 
 #: matches/templates/matches/match_detail.html:204
 msgid "Previous Matches"
-msgstr "過往比賽"
+msgstr ""
 
 #: matches/templates/matches/match_detail.html:210
 msgctxt "Watch VODs"
 msgid "Watch"
-msgstr "觀看"
+msgstr ""
 
 #: matches/templates/matches/match_detail.html:227
 #: matches/templates/matches/match_list.html:75
 #: matches/templates/matches/matches_inline.html:140
 msgid "Replay"
-msgstr "戰鬥錄影"
+msgstr ""
 
 #: matches/templates/matches/match_detail.html:232
 msgid "Download"
-msgstr "下載"
+msgstr ""
 
 #: matches/templates/matches/match_detail.html:241
 #: matches/templates/matches/match_stats.html:418
 msgid "Statistics"
-msgstr "統計數據"
+msgstr ""
 
 #: matches/templates/matches/match_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Match List"
-msgstr "比賽列表"
+msgstr ""
 
 #: matches/templates/matches/match_list.html:68
 msgctxt "Form filter options"
 msgid "Options"
-msgstr "選項"
+msgstr ""
 
 #: matches/templates/matches/match_list.html:70
 #: matches/templates/matches/matches_inline.html:135
 msgid "VOD"
-msgstr "VOD"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:3
 msgid "Level"
-msgstr "等級"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:4
 #: teams/templatetags/ppr_tags.py:13
 msgid "Player Performance Rating"
-msgstr "選手表現評分"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:6
 #: meta/templates/meta/players.html:21 meta/templates/meta/players.html:61
@@ -1411,7 +1381,7 @@ msgstr "選手表現評分"
 #: pages/templates/mainpage.html:64
 #: teams/templates/players/players_transfers.html:65
 msgid "Player"
-msgstr "選手"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:134
 msgid "XP difference"
@@ -1420,7 +1390,7 @@ msgstr ""
 #: matches/templates/matches/match_stats.html:180
 msgctxt "Some hero killed by some heroes"
 msgid "killed by"
-msgstr "死於"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:180
 msgid "Nexus forces"
@@ -1429,229 +1399,221 @@ msgstr ""
 #: matches/templates/matches/match_stats.html:250
 msgctxt "Match time"
 msgid "Duration"
-msgstr "比賽時長"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:302
 msgid "Assists"
-msgstr "助攻"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:303
 #: teams/templates/players/player_overview.html:42
 msgid "Deaths"
-msgstr "死亡"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:304
 msgid "Siege Dmg"
-msgstr "攻城傷害"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:305
 msgid "Hero Dmg"
-msgstr "英雄傷害"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:306
 msgctxt "Hero role"
 msgid "Role"
-msgstr "角色"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:307
 msgctxt "Experience"
 msgid "Exp"
-msgstr "經驗值"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:347
 msgid ""
 "The rating hasn't been calculated yet or cannot be calculated due to the "
 "small amount of games on this hero."
-msgstr "該評分尚未計算完成或是因為比賽數量不足無法算出。"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:349
 msgid ""
 "The rating is based on statistics of the player as compared to statistics of "
 "other players on the same hero in the same patches."
 msgstr ""
-"該評分是根據該選手和其他選手在同一更新檔期間用同樣的英雄打出的統計數據相比算"
-"出的。"
 
 #: matches/templates/matches/match_stats.html:419
 msgctxt "Hero talents"
 msgid "Talents"
-msgstr "天賦"
+msgstr ""
 
 #: matches/templates/matches/match_stats.html:420
 msgid "Match Log"
-msgstr "比賽日誌"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:15
 #: matches/templates/tournaments/tournament_overview.html:73
 #: pages/templates/calendar_base.html:107
 msgctxt "Tournament stage"
 msgid "Stage"
-msgstr "階段"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:18
 msgctxt "Tournament stage / Map"
 msgid "Stage / Map"
-msgstr "階段/地圖"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:21
 msgid "Tournament / Map"
-msgstr "賽事/地圖"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:26
 msgctxt "Spoilers switcher title"
 msgid "Spoilers"
-msgstr "顯示比賽結果"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:94
 #, python-format
 msgid "Game %(game_number)s"
-msgstr "第%(game_number)s局"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:111
 msgctxt "Tooltip for match score"
 msgid "Win"
-msgstr "勝"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:112
 msgctxt "Tooltip for match score"
 msgid "Lose"
-msgstr "負"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:113
 msgctxt "W for Win"
 msgid "W"
-msgstr "勝"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:114
 msgctxt "L for Lose"
 msgid "L"
-msgstr "負"
+msgstr ""
 
 #: matches/templates/matches/matches_inline.html:125
 msgid "Show"
-msgstr "顯示"
+msgstr ""
 
 #: matches/templates/matches/upcoming_matches_inline.html:12
 #: teams/templates/teams/team_overview.html:177
 msgid "Tournament"
-msgstr "比賽"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_detail.html:16
 msgctxt "Tournament overview"
 msgid "Overview"
-msgstr "概況"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Tournaments"
-msgstr "比賽"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_list.html:17
 msgid "Upcoming tournaments"
-msgstr "即將到來的比賽"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_list.html:22
 msgid "Ongoing tournaments"
-msgstr "正在進行的比賽"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_list.html:26
 msgid "Completed tournaments"
-msgstr "已經完成的比賽"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_list_inline.html:12
 #: matches/templates/tournaments/tournament_overview.html:20
 msgid "Start Date"
-msgstr "開始日期"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_list_inline.html:13
 #: matches/templates/tournaments/tournament_overview.html:24
 msgid "End Date"
-msgstr "結束日期"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_list_inline.html:14
 msgctxt "Tournament name"
 msgid "Name"
-msgstr "比賽名稱"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_list_inline.html:15
 #: matches/templates/tournaments/tournament_overview.html:41
 msgid "Prize Pool"
-msgstr "總獎金額"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:6
 msgctxt "Place in table of winners"
 msgid "Place"
-msgstr "名次"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:8
 msgctxt "Tournament prize pool"
 msgid "Prize"
-msgstr "獎金"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:16
 msgid "General Information"
-msgstr "綜合資訊"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:28
 msgctxt "Tournament format"
 msgid "Format"
-msgstr "賽制"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:33
 msgctxt "The venue of the tournament"
 msgid "Location"
-msgstr "地點"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:45
 msgctxt "Tournament matches count"
 msgid "Total Matches"
-msgstr "比賽場數總計"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:50
 msgid "Description"
-msgstr "簡介"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:122
 msgid "Participating Teams"
-msgstr "參賽隊伍"
+msgstr ""
 
 #: matches/templates/tournaments/tournament_overview.html:144
-#, fuzzy
-#| msgid "eSport statistics"
 msgid "Tournament statistics"
-msgstr "電競統計數據"
+msgstr ""
 
 #: meta/forms.py:34 teams/forms.py:69 teams/forms.py:141
-#, fuzzy
-#| msgid "All Heroes"
 msgid "All heroes"
-msgstr "所有英雄"
+msgstr ""
 
 #: meta/templates/meta/base.html:5
 msgctxt "[SEO] Page title"
 msgid "Meta"
-msgstr "主流戰術"
+msgstr ""
 
 #: meta/templates/meta/base.html:8 meta/templates/meta/base.html:13
 #: templates/base.html:227
 msgid "Meta"
-msgstr "主流戰術"
+msgstr ""
 
 #: meta/templates/meta/drafts.html:12
-#, fuzzy
-#| msgid "Top First Picks"
 msgid "Top First Bans"
-msgstr "最常首選的英雄"
+msgstr ""
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
 #: meta/templates/meta/maps.html:36 teams/templates/teams/team_maps.html:28
 msgid "Summary"
-msgstr "全英雄"
+msgstr ""
 
 #: meta/templates/meta/drafts.html:63
 msgid "Top First Picks"
-msgstr "最常首選的英雄"
+msgstr ""
 
 #: meta/templates/meta/drafts.html:116
 msgid "Top Second Bans"
@@ -1663,16 +1625,16 @@ msgstr ""
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
-msgstr "最常見的組合"
+msgstr ""
 
 #: meta/templates/meta/drafts.html:226
 msgctxt "Team composition"
 msgid "Composition"
-msgstr "組合"
+msgstr ""
 
 #: meta/templates/meta/drafts.html:227
 msgid "Count"
-msgstr "局數"
+msgstr ""
 
 #: meta/templates/meta/maps.html:22 teams/templates/teams/team_maps.html:16
 msgid "Shortest"
@@ -1689,13 +1651,11 @@ msgstr ""
 #: meta/templates/meta/maps.html:25
 msgctxt "Popular picks"
 msgid "Most Played Heroes"
-msgstr "最常用的英雄"
+msgstr ""
 
 #: meta/templates/meta/maps.html:26
-#, fuzzy
-#| msgid "Most Banned Heroes"
 msgid "Most Banned"
-msgstr "最常禁用的英雄"
+msgstr ""
 
 #: meta/templates/meta/players.html:12
 msgid "Widest Hero Pool by Players"
@@ -1706,11 +1666,8 @@ msgid "Smallest Hero Pool by Players"
 msgstr ""
 
 #: meta/templates/meta/players.html:94
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Compare Players"
 msgid "Top KDA Players"
-msgstr "選手比較"
+msgstr ""
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
@@ -1718,19 +1675,15 @@ msgstr "選手比較"
 #: teams/templates/teams/team_overview.html:213 teams/views.py:661
 #: teams/views.py:684
 msgid "KDA"
-msgstr "KDA"
+msgstr ""
 
 #: meta/templates/meta/players.html:134
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Players performance"
-msgstr "選手表現評分"
+msgstr ""
 
 #: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Performance"
-msgstr "選手表現評分"
+msgstr ""
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
@@ -1745,10 +1698,8 @@ msgid "Smallest Hero Pool by Teams"
 msgstr ""
 
 #: meta/templates/meta/teams.html:84
-#, fuzzy
-#| msgid "To Team"
 msgid "Top KDA Teams"
-msgstr "新戰隊"
+msgstr ""
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
@@ -1756,69 +1707,69 @@ msgstr ""
 
 #: meta/views.py:126
 msgid "No matches played in the selected period."
-msgstr "選擇的時間段內沒有比賽記錄"
+msgstr ""
 
 #: meta/views.py:232
 msgid "Warriors"
-msgstr "戰士"
+msgstr ""
 
 #: meta/views.py:233
 msgid "Supports"
-msgstr "輔助"
+msgstr ""
 
 #: meta/views.py:234
 msgid "Assassins"
-msgstr "刺客"
+msgstr ""
 
 #: meta/views.py:235
 msgid "Specialists"
-msgstr "專家"
+msgstr ""
 
 #: meta/views.py:278 meta/views.py:367
 msgid "The highest average number of takedowns"
-msgstr "平均總擊殺最高"
+msgstr ""
 
 #: meta/views.py:289
 msgid "The highest average number of kills"
-msgstr "平均直接擊殺最高"
+msgstr ""
 
 #: meta/views.py:300
 msgid "The highest average number of assists"
-msgstr "平均助攻數最多"
+msgstr ""
 
 #: meta/views.py:311
 msgid "Player that spent the most time alive"
-msgstr "遊戲存活時間最長"
+msgstr ""
 
 #: meta/views.py:322
 msgid "Player that spent the most time dead"
-msgstr "遊戲死亡時間最長"
+msgstr ""
 
 #: meta/views.py:378
 msgid "The highest average deaths"
-msgstr "平均死亡數最高"
+msgstr ""
 
 #: meta/views.py:389
 msgid "Team that spent the most time alive"
-msgstr "遊戲存活時間最長"
+msgstr ""
 
 #: meta/views.py:400
 msgid "Team that spent the most time dead"
-msgstr "遊戲死亡時間最長"
+msgstr ""
 
 #: pages/templates/calendar.html:5
 msgctxt "[SEO] Page title"
 msgid "eSports Calendar"
-msgstr "電競日曆"
+msgstr ""
 
 #: pages/templates/calendar.html:6
 msgid "Upcoming and ongoing events."
-msgstr "即將到來和正在進行的活動"
+msgstr ""
 
 #: pages/templates/calendar_base.html:72
 msgctxt "eSports Calendar tooltip for events start time"
 msgid "Your local time"
-msgstr "本地時間"
+msgstr ""
 
 #: pages/templates/calendar_base.html:77
 msgid ""
@@ -1826,46 +1777,42 @@ msgid ""
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
 "link into the URL field."
 msgstr ""
-"如果你是Google Calendar的用戶，請複製按鈕的鏈接，打開Google Calendar，找"
-"到“Other Calendars”，選擇“Add by URL”，然後把鏈接地址粘貼到URL欄里。"
 
 #: pages/templates/calendar_base.html:80
 msgid "Subscribe to Calendar"
-msgstr "訂閱這個日曆"
+msgstr ""
 
 #: pages/templates/calendar_base.html:90
-#, fuzzy
-#| msgid "Latest Matches"
 msgid "Hide matches"
-msgstr "最新比賽"
+msgstr ""
 
 #: pages/templates/calendar_base.html:94
 msgid "eSports Calendar"
-msgstr "電競日曆"
+msgstr ""
 
 #: pages/templates/calendar_base.html:106
 msgctxt "eSports Calendar"
 msgid "Tournament / Stream"
-msgstr "比賽/直播"
+msgstr ""
 
 #: pages/templates/calendar_base.html:113
 msgctxt "Live events in eSports Calendar"
 msgid "Live"
-msgstr "正在直播"
+msgstr ""
 
 #: pages/templates/calendar_base.html:175
 msgctxt "Upcoming events in eSports Calendar"
 msgid "Upcoming"
-msgstr "即將到來"
+msgstr ""
 
 #: pages/templates/calendar_base.html:213
 msgid "Times displayed in your local time"
-msgstr "顯示的是您的本地時間"
+msgstr ""
 
 #: pages/templates/mainpage.html:7
 msgctxt "Greeting"
 msgid "Welcome to Master League"
-msgstr "歡迎來到Master League"
+msgstr ""
 
 #: pages/templates/mainpage.html:13
 #, python-format
@@ -1880,173 +1827,144 @@ msgid ""
 "href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> "
 "professional players in our database."
 msgstr ""
-"在這裡你能看到<a href=\"http://tw.battle.net/heroes/zh/\" target=\"_blank"
-"\"><strong>暴雪英霸</strong></a>的最新的比賽結果，VOD和錄影。還能找到關於各個"
-"地區各個選手和戰隊的深度統計，以及更多精彩的內容。目前為止我們的數據庫已經收"
-"錄了約 <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>場"
-"比賽，<a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支隊伍"
-"和<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名職業"
-"選手的資料。"
 
 #: pages/templates/mainpage.html:27
 msgid "Latest News"
-msgstr "最新消息"
+msgstr ""
 
 #: pages/templates/mainpage.html:34
 msgctxt "Latest News"
 msgid "Title"
-msgstr "標題"
+msgstr ""
 
 #: pages/templates/mainpage.html:56
 msgid "Latest Transfers"
-msgstr "最新轉會情報"
+msgstr ""
 
 #: pages/templates/mainpage.html:65
 msgid "From Team"
-msgstr "原戰隊"
+msgstr ""
 
 #: pages/templates/mainpage.html:66
 msgid "To Team"
-msgstr "新戰隊"
+msgstr ""
 
 #: pages/templates/mainpage.html:115
 #: teams/templates/players/player_matches.html:5
 msgid "Latest Matches"
-msgstr "最新比賽"
+msgstr ""
 
 #: search/templates/search/search.html:5
 msgctxt "[SEO] Page title"
 msgid "Search results"
-msgstr "搜尋結果"
+msgstr ""
 
 #: search/templates/search/search.html:13
 msgctxt "Search results"
 msgid "Not found"
-msgstr "找不到"
+msgstr ""
 
 #: search/templates/search/search.html:17
 msgid "Search"
-msgstr "搜尋"
+msgstr ""
 
 #: teams/forms.py:32
 msgid "Current Roster"
-msgstr "當前名單"
+msgstr ""
 
 #: teams/forms.py:55
 msgid "Any Team"
-msgstr "任意戰隊"
+msgstr ""
 
 #: teams/forms.py:66 teams/forms.py:129
-#, fuzzy
-#| msgid "All Maps"
 msgid "All maps"
-msgstr "所有地圖"
+msgstr ""
 
 #: teams/forms.py:91
 msgctxt "Form filter, any team choice"
 msgid "Any"
-msgstr "任選"
+msgstr ""
 
 #: teams/forms.py:92
 msgctxt "Player w/o team"
 msgid "Free Agent"
-msgstr "自由選手"
+msgstr ""
 
 #: teams/forms.py:96
 msgctxt "Form filter, any player position choice"
 msgid "Any"
-msgstr "任選"
+msgstr ""
 
 #: teams/forms.py:103 teams/templates/players/player_list.html:79
 #: teams/templates/teams/team_overview.html:144
 msgctxt "Player role/team position"
 msgid "Position"
-msgstr "位置"
+msgstr ""
 
 #: teams/forms.py:108
 msgid "First Player"
-msgstr "選手一"
+msgstr ""
 
 #: teams/forms.py:109
 msgid "Second Player"
-msgstr "選手二"
+msgstr ""
 
 #: teams/forms.py:118
-#, fuzzy
-#| msgid "Player Roster"
 msgid "Roster"
-msgstr "選手名單"
+msgstr ""
 
 #: teams/forms.py:178
 msgid "Disbanded or changed a sponsor"
 msgstr ""
 
 #: teams/forms.py:181
-#, fuzzy
-#| msgctxt "All patches"
-#| msgid "All Time"
 msgid "All time"
-msgstr "全時間段"
+msgstr ""
 
 #: teams/models.py:125 teams/templates/players/player_card_inline.html:10
 msgctxt "Player role"
 msgid "Warrior"
-msgstr "戰士"
+msgstr ""
 
 #: teams/models.py:126 teams/templates/players/player_card_inline.html:12
 msgctxt "Player role"
 msgid "Support"
-msgstr "輔助"
+msgstr ""
 
 #: teams/models.py:127 teams/templates/players/player_card_inline.html:14
 msgctxt "Player role"
 msgid "Assassin"
-msgstr "刺客"
+msgstr ""
 
 #: teams/models.py:128 teams/templates/players/player_card_inline.html:16
 msgctxt "Player role"
 msgid "Flex"
-msgstr "補位"
+msgstr ""
 
 #: teams/templates/players/player_detail.html:79
-#, fuzzy
-#| msgctxt "Hero overview"
-#| msgid "Overview"
 msgid "Overview"
-msgstr "概況"
+msgstr ""
 
 #: teams/templates/players/player_heroes.html:42
-#, fuzzy
-#| msgctxt "Live events in eSports Calendar"
-#| msgid "Live"
 msgid "Live Time"
-msgstr "存活時間"
+msgstr ""
 
 #: teams/templates/players/player_heroes.html:43
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero dmg"
-msgstr "英雄傷害"
+msgstr ""
 
 #: teams/templates/players/player_heroes.html:44
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege dmg"
-msgstr "攻城傷害"
+msgstr ""
 
 #: teams/templates/players/player_heroes.html:45
-#, fuzzy
-#| msgctxt "Hero role"
-#| msgid "Role"
 msgid "Role"
-msgstr "角色"
+msgstr ""
 
 #: teams/templates/players/player_heroes.html:46
 #: teams/templates/players/player_overview.html:86
-#, fuzzy
-#| msgid "Experience / Min"
 msgid "Experience"
-msgstr "經驗值/分鐘"
+msgstr ""
 
 #: teams/templates/players/player_heroes.html:47
 msgid "PPR"
@@ -2057,7 +1975,7 @@ msgstr ""
 #: teams/templates/players/players_transfers.html:44
 #: teams/templates/players/players_transfers.html:52
 msgid "Transfers"
-msgstr "轉會"
+msgstr ""
 
 #: teams/templates/players/player_list.html:37
 #: teams/templates/players/players_compare.html:114
@@ -2065,58 +1983,45 @@ msgstr "轉會"
 #: teams/templates/players/players_transfers.html:55
 msgctxt "Players compare"
 msgid "Compare"
-msgstr "比較"
+msgstr ""
 
 #: teams/templates/players/player_list.html:78
 msgctxt "Player real name"
 msgid "Name"
-msgstr "名字"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:5
 #: teams/templates/players/player_overview.html:11
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Player Statistics"
 msgid "Player Statistics"
-msgstr "選手統計數據"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:18
-#, fuzzy
-#| msgid "Player"
 msgid "Player Avg"
-msgstr "選手"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:19
-#, fuzzy
-#| msgid "Team"
 msgid "Team Avg"
-msgstr "戰隊"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:33
 msgid "Takedowns"
 msgstr ""
 
 #: teams/templates/players/player_overview.html:51
-#, fuzzy
-#| msgid "Participating Teams"
 msgid "Kill Participation"
-msgstr "參賽隊伍"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:59
 msgid "Time Dead"
 msgstr ""
 
 #: teams/templates/players/player_overview.html:68
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero Damage"
-msgstr "英雄傷害"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:77
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege Damage"
-msgstr "攻城傷害"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:95
 msgid "Average Match Time"
@@ -2124,120 +2029,116 @@ msgstr ""
 
 #: teams/templates/players/player_overview.html:102 teams/views.py:692
 msgid "Analyzed Replays"
-msgstr "已分析的錄影"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:103
-#, fuzzy
-#| msgid "Total Matches"
 msgid "Total matches"
-msgstr "比賽總數"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:110
 msgctxt "Player transfers history"
 msgid "Team history"
-msgstr "戰隊歷史"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:117
 msgid "From date"
-msgstr "起始日期"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:118
 msgid "To date"
-msgstr "截止日期"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:5
 msgctxt "[SEO] Page title"
 msgid "Compare Players"
-msgstr "選手比較"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:34
 msgid "Currently Selected"
-msgstr "當前所選"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:36
 msgid "Unable to retrieve results"
-msgstr "無法找到結果"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:37
 msgid "Search..."
-msgstr "搜尋..."
+msgstr ""
 
 #: teams/templates/players/players_compare.html:38
 msgid "Start typing a search query"
-msgstr "鍵入搜尋關鍵字"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:39
 msgid "No Results"
-msgstr "沒有結果"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:40
 msgid "Searching..."
-msgstr "搜尋中..."
+msgstr ""
 
 #: teams/templates/players/players_compare.html:163
 msgctxt "Button label for players compare"
 msgid "Compare"
-msgstr "比較"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:182
 msgctxt "Players compare page"
 msgid "All Time Avg. Stats"
-msgstr "全時間段平均統計數據"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:204
 msgid "KDA is calculated as (Kills + Assists) / (Deaths + 1)"
-msgstr "KDA等於（擊殺+助攻）/（死亡+1）"
+msgstr ""
 
 #: teams/templates/players/players_compare.html:205
 msgid "Lifetime is calculated as (Match time - Time spend dead) / Match time"
-msgstr "存活時間等於（比賽時間 - 死亡時間）/ 比賽時間"
+msgstr ""
 
 #: teams/templates/players/players_transfers.html:5
 msgctxt "[SEO] Page title"
 msgid "Players transfers"
-msgstr "選手轉會情報"
+msgstr ""
 
 #: teams/templates/players/players_transfers.html:66
 msgctxt "Player transfer"
 msgid "From Team"
-msgstr "原戰隊"
+msgstr ""
 
 #: teams/templates/players/players_transfers.html:67
 msgctxt "Player transfer"
 msgid "To Team"
-msgstr "現戰隊"
+msgstr ""
 
 #: teams/templates/teams/team_base.html:53
 msgctxt "Team overview"
 msgid "Overview"
-msgstr "概況"
+msgstr ""
 
 #: teams/templates/teams/team_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Teams"
-msgstr "戰隊"
+msgstr ""
 
 #: teams/templates/teams/team_list.html:75
 msgctxt "Disbanded teams visibility switcher"
 msgid "Show disbanded"
-msgstr "顯示已解散的隊伍"
+msgstr ""
 
 #: teams/templates/teams/team_list.html:80
 msgctxt "Search field tooltip"
 msgid "Start typing to search"
-msgstr "鍵入搜尋關鍵字"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:95
-#, fuzzy, python-format
-#| msgid "First wave ban (%(ban1_count)s matches)"
+#, python-format
 msgid "Losses: %(loss_count)s matches"
-msgstr "第一階段禁用場次（%(ban1_count)s場）"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:96
-#, fuzzy, python-format
-#| msgid "%(win_count)s of %(pick_count)s matches"
+#, python-format
 msgid "Wins: %(win_count)s matches"
-msgstr "總共被選的%(pick_count)s場中的%(win_count)s場"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:103
 #, python-format
@@ -2250,46 +2151,38 @@ msgid "Takedowns: %(takedowns)s"
 msgstr ""
 
 #: teams/templates/teams/team_overview.html:111
-#, fuzzy, python-format
-#| msgid "%(match_count)s of %(total_matches)s matches"
+#, python-format
 msgid "%(match_count)s matches"
-msgstr "總共%(total_matches)s場中的%(match_count)s場"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:135
 msgid "Player Roster"
-msgstr "選手名單"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:143
-#, fuzzy
-#| msgctxt "Tournament name"
-#| msgid "Name"
 msgid "Name"
-msgstr "比賽名稱"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:167
 msgctxt "Team achievements in tournaments"
 msgid "Achievements"
-msgstr "榮譽"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:176
 msgid "Place"
-msgstr "名次"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:178
 msgid "Prize"
-msgstr "獎金"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:209
-#, fuzzy
-#| msgid "Win Rate"
 msgid "Win rate"
-msgstr "勝率"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:217
-#, fuzzy
-#| msgid "Hero"
 msgid "Hero pool"
-msgstr "英雄"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:223
 msgid "FP win rate"
@@ -2300,10 +2193,8 @@ msgid "Time dead"
 msgstr ""
 
 #: teams/templates/teams/team_overview.html:231
-#, fuzzy
-#| msgid "Dehaka Patch"
 msgid "Avg. match"
-msgstr "德哈卡更新檔"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:237
 #, python-format
@@ -2313,10 +2204,8 @@ msgid ""
 msgstr ""
 
 #: teams/templates/teams/team_overview.html:251
-#, fuzzy
-#| msgid "Latest Matches"
 msgid "Latest matches"
-msgstr "最新比賽"
+msgstr ""
 
 #: teams/templatetags/ppr_tags.py:14
 #, python-format
@@ -2326,102 +2215,93 @@ msgid ""
 "analyzing <strong>%(ppr_match_count)s matches</strong> with replays out of "
 "<strong>%(match_count)s matches</strong> in total."
 msgstr ""
-"該評分是根據該選手和其他選手在同一更新檔期間用同樣的英雄打出的統計數據相比算"
-"出的。<br /><br />計算所基於的統計數據來源於總計<strong>%(match_count)s</"
-"strong>場比賽中有錄影的<strong>%(ppr_match_count)s</strong>場。"
 
 #: teams/views.py:662
 msgctxt "Hero damage"
 msgid "Hero"
-msgstr "英雄傷害"
+msgstr ""
 
 #: teams/views.py:663
 msgctxt "Siege damage"
 msgid "Siege"
-msgstr "攻城傷害"
+msgstr ""
 
 #: teams/views.py:664
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
-msgstr "存活時間"
+msgstr ""
 
 #: teams/views.py:665
 msgctxt "Crowd control duration"
 msgid "CC"
-msgstr "控場時間"
+msgstr ""
 
 #: teams/views.py:666
-#, fuzzy
-#| msgctxt "Expirience"
-#| msgid "XP"
 msgctxt "Experience"
 msgid "XP"
-msgstr "經驗值"
+msgstr ""
 
 #: teams/views.py:667
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
 msgid "Role"
-msgstr "角色"
+msgstr ""
 
 #: teams/views.py:685
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime / Min"
-msgstr "存活時間/分鐘"
+msgstr ""
 
 #: teams/views.py:686
 msgid "Siege Damage / Min"
-msgstr "攻城傷害/分鐘"
+msgstr ""
 
 #: teams/views.py:687
 msgid "Hero Damage / Min"
-msgstr "英雄傷害/分鐘"
+msgstr ""
 
 #: teams/views.py:688
 msgid "Healing / Min"
-msgstr "治療量/分鐘"
+msgstr ""
 
 #: teams/views.py:689
 msgid "Damage Taken / Min"
-msgstr "承受的傷害量/分鐘"
+msgstr ""
 
 #: teams/views.py:690
 msgid "CC Duration / Min"
-msgstr "控場時間/分鐘"
+msgstr ""
 
 #: teams/views.py:691
 msgid "Experience / Min"
-msgstr "經驗值/分鐘"
+msgstr ""
 
 #: templates/404.html:6
 msgctxt "404 page"
 msgid "Page Not Found"
-msgstr "Page Not Found"
+msgstr ""
 
 #: templates/404.html:21
 msgctxt "404 page"
 msgid "There's nothing here"
-msgstr "這裡什麼都沒有"
+msgstr ""
 
 #: templates/404.html:24
-#, fuzzy
-#| msgctxt "Link to the main page"
-#| msgid "Home"
 msgid "Home"
-msgstr "首頁"
+msgstr ""
 
 #: templates/base.html:6
 msgid "eSport statistics"
-msgstr "電競統計數據"
+msgstr ""
 
 #: templates/base.html:80
 msgctxt "Search results"
 msgid "Teams not found"
-msgstr "找不到該戰隊"
+msgstr ""
 
 #: templates/base.html:95
 msgctxt "Search results"
 msgid "Players not found"
-msgstr "找不到該選手"
+msgstr ""
 
 #: templates/base.html:250
 msgid "Log out"
@@ -2430,7 +2310,7 @@ msgstr ""
 #: templates/base.html:263
 msgctxt "Search field tooltip"
 msgid "Search"
-msgstr "搜尋"
+msgstr ""
 
 #: templates/base.html:275
 msgid "License agreement"
@@ -2455,114 +2335,4 @@ msgstr ""
 
 #: templates/base.html:328
 msgid "Help us localize the site!"
-msgstr "幫助我們進行本地化！"
-
-#~ msgctxt "[SEO] Page title"
-#~ msgid "Team Statistics"
-#~ msgstr "戰隊統計數據"
-
-#, fuzzy
-#~| msgctxt "Disbanded teams visibility switcher"
-#~| msgid "Show disbanded"
-#~ msgid "Disbanded"
-#~ msgstr "顯示已解散的隊伍"
-
-#~ msgctxt "Tournament matches count (w/o qualifiers)"
-#~ msgid "Main event matches count"
-#~ msgstr "正賽比賽場數"
-
-#~ msgctxt "Tournament total matches count (w/ qualifiers)"
-#~ msgid "Total matches count"
-#~ msgstr "含預選賽的場數總計"
-
-#~ msgid "Main Event Statistics"
-#~ msgstr "正賽數據統計"
-
-#~ msgid "Most Played Heroes"
-#~ msgstr "最常選擇的英雄"
-
-#~ msgid "Most Played Maps"
-#~ msgstr "最常打的地圖"
-
-#~ msgid "Summary Stats"
-#~ msgstr "綜合統計"
-
-#~ msgctxt "First pick stats"
-#~ msgid "First pick"
-#~ msgstr "先選方"
-
-#~ msgctxt "Second pick stats"
-#~ msgid "Second pick"
-#~ msgstr "后選方"
-
-#~ msgctxt "Total team stats"
-#~ msgid "Total"
-#~ msgstr "總計"
-
-#~ msgid "Losses"
-#~ msgstr "負場"
-
-#~ msgctxt "[SEO] Page title"
-#~ msgid "Most Played Heroes"
-#~ msgstr "最常用的英雄"
-
-#~ msgid "Most Banned by %(team)s"
-#~ msgstr "%(team)s最常禁用的英雄"
-
-#~ msgid "Most Banned by Opponents"
-#~ msgstr "對手最常禁用的英雄"
-
-#~ msgid "Loss %%"
-#~ msgstr "敗率"
-
-#~ msgctxt "[SEO] Page title"
-#~ msgid "Latest Matches"
-#~ msgstr "最新比賽"
-
-#~ msgctxt "Plays for team since date"
-#~ msgid "Plays since"
-#~ msgstr "入隊時間"
-
-#~ msgctxt "[SEO] Page title"
-#~ msgid "Players"
-#~ msgstr "選手"
-
-#~ msgctxt "Player transfer"
-#~ msgid "From date"
-#~ msgstr "起始時間"
-
-#~ msgctxt "Player transfer"
-#~ msgid "To date"
-#~ msgstr "截止時間"
-
-#, fuzzy
-#~| msgid ""
-#~| "The rating is based on statistics of the player as compared to "
-#~| "statistics of other players on the same hero in the same patches."
-#~ msgid ""
-#~ "The rating is based on statistics of the player as compared to statistics "
-#~ "of other players on the "
-#~ msgstr ""
-#~ "該評分是根據該選手和其他選手在同一更新檔期間用同樣的英雄打出的統計數據相比"
-#~ "算出的。"
-
-#~ msgctxt "Map overview"
-#~ msgid "Overview"
-#~ msgstr "概況"
-
-#~ msgid "Stats"
-#~ msgstr "統計數據"
-
-#~ msgid "First Pick Win Rate"
-#~ msgstr "首選方勝率"
-
-#~ msgctxt "Player overview"
-#~ msgid "Overview"
-#~ msgstr "總覽"
-
-#~ msgid ""
-#~ "Too few matches played (%(total_match_count)s of 50 minimum required) in "
-#~ "the selected period to generate a reliable report."
-#~ msgstr ""
-#~ "因為所選期間收錄的比賽過少 (最少要求50場，目前僅收錄%(total_match_count)s"
-#~ "場) ，無法生成準確的報告。"
+msgstr ""
